@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image" href="./img/avatar.png">
+    <script src="./js/script.js"></script>
+    <title>Mateus Messias Front-Developer</title>
+</head>
+<body>
+    <div id="main-container">
+        <header id="header-fixed">
+            <div id="curriculum"><button><a href="https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:1b0742a9-e758-4104-90af-b12e57fbf971">
+                <h4>Curriculo</h4></a></button>
+            </div>
+            <nav id="nav-bar-items">
+                <ul>
+                    <a href="#main-container"><li><i class="fa-solid fa-house"></i></li></a>
+                    <a href="#about-me"><li><i class="fa-solid fa-user"></i></li></a>
+                    <a href="#section-works"><li><i class="fa-solid fa-envelope"></i></li></a>
+                    <a href="#footer-section"><li><i class="fa-solid fa-comment"></i></li></a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section">
+                <div id="apresentation">
+                    <div class="name">
+                        <h1>Mateus Messias</h1>
+                    </div>
+                    <div class="void"></div>
+                    <div class="info">
+                        <p class="p">Desenvolvedor Front end e entusiasta da área de técnologia.</p>
+                        <p>Sempre buscando aprendizado e conhecimento para uma carreira de sucesso!</p>
+                    </div>
+                    <div class="void"></div>
+                    <div class="contact-me">
+                        <p>Se quiser conversar, clique no botão abaixo para falar comigo!</p>
+                        <a href="https://wa.me/5519997132642?text=Olá+Mateus,+tudo+bem?+"><button>Fale comigo</button></a>
+                    </div>
+                </div>
+                <div class="decoration-container">
+                    <div id="image-me1"><img src="./img/eu3.jpeg" alt="primeira foto minha"></div>
+                </div>
+            </section>
+            <article class="section section2">
+                <div class="description-father">
+                    <div class="description-son">
+                        <h2>Sou um <span class="important-word">Internauta</span> do mundo da T.I que sempre busca saber e conhecer </h2> 
+                        <p>
+                            Desenvolvedor Front End assíduo nos estudos e apaixonado por programação, sempre 
+                            buscando saber e conhecer novas tecnologias com ênfase na prática e aprimoramento
+                            de suas habilidades, destancando-se pela genuína vontade de entender como funciona
+                            o mundo por trás dos computadores!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <section class="all">
+                <div class="center-container">
+                    <div class="brief">
+                        <h2>Sobre mim</h2>
+                        <p> 
+                            Prazer! Me chamo Mateus, tenho 18 anos e moro na cidade de Campinas São Paulo, sou um estudante 
+                            do colégio Cotuca, atualmente cursando eletrônica. <br><br>
+                            Sou uma pessoa extrovertida que gosta de conversar e trocar experiências! Prezo muito pelo
+                            respeito e honestidade visando sempre ter um vida coerente aos valores cristãos.
+                        </p>
+                    </div>
+                    <div class="image-me2"><img src="./img/eu1.jpg" alt="segunda foto minha"></div>
+                </div>
+            </section>
+            <section class="all">
+                <div class="center-container">
+                    <div class="image-me3"><img src="./img/eu2.jpeg" alt="terceira foto minha"></div>
+                    <div class="brief">
+                        <h2>Um pouco mais sobre</h2>
+                        <p> 
+                            Adoro exatas, com ênfase na área da T.I e computação, procuro me desenvolver nesta
+                            área por conta, pois tenho grande interesse de um dia me tornar um especialista no assunto.<br><br> 
+                            Sou uma pessoa comunicativa com um espírito forte de liderança, procuro sempre tratar 
+                            todos bem e ser gentil! Contudo sempre fui uma pessoa muito animada e otimista. 
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <article class="section section2">
+                <div class="description-father2">
+                    <div class="description-son">
+                        <h2>Sou um jovem <span class="important-word">Interessado</span> e focado que corre atras de seus objetivos  </h2> 
+                        <p>
+                            Gosto de fazer as coisas acontecerem, sendo uma pessoa focada nos objetivos e
+                            com responsabilidade, tenho sempre grande interesse em aprender e desenvolver 
+                            projetos. Além de tudo procuro sempre o aprendizado por meio de experiencias e
+                            fortes vivencias, pois é onde eu acredito que se encontra o maior dos conhecimentos!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <section id="section-works">
+                <h2>Projetos</h2>
+                <div class="works">
+                    <div class="project">
+                        <div class="soon"><h4>Em Breve</h4></div>
+                    </div>
+                    <div class="project">
+                        <div class="soon"><h4>Em Breve</h4></div>
+                    </div>
+                    <div class="project">
+                        <div class="soon"><h4>Em Breve</h4></div>
+                    </div>
+                    <!-- <div class="project">
+                        <div class="soon"><h4>Em Breve</h4></div>
+                    </div>
+                    <div class="project">
+                        <div class="soon"><h4>Em Breve</h4></div>
+                    </div>
+                    <div class="project">
+                        <div class="soon"><h4>Em Breve</h4></div>
+                    </div> -->
+                </div>
+                <div id="see-more"><a href="#"><button>Ver mais</button></a></div>
+            </section>
+            <section class="section-skills">
+                <h2>Skills</h2>
+                <div class="skills">
+                    <div class="skill1 skill">
+                        <h3>HTML 5</h3>
+                        <div class="porcent1 porcent"></div>
+                    </div>
+                    <div class="skill2 skill">
+                        <h3>CSS 3</h3>
+                        <div class="porcent2 porcent"></div>
+                    </div>
+                    <div class="skill3 skill">
+                        <h3>JAVASCRIPT</h3>
+                        <div class="porcent3 porcent"></div>
+                    </div>
+                    <div class="skil4 skill">
+                        <h3>REACT</h3>
+                        <div class="porcent4 porcent"></div>
+                    </div>
+                    <div class="skill5 skill">
+                        <h3>NODE JS</h3>
+                        <div class="porcent5 porcent"></div>
+                    </div>
+                    <div class="skill6 skill">
+                        <h3>MY SQL</h3>
+                        <div class="porcent6 porcent"></div>
+                    </div>
+                    <div class="skill7 skill">
+                        <h3>TYPESCRIPT</h3>
+                        <div class="porcent7 porcent"></div>
+                    </div>
+                    <div class="skill8 skill">
+                        <h3>ANGULAR</h3>
+                        <div class="porcent8 porcent"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer-section">
+            <div id="thanks">
+                <h2>Obrigado pela visita!</h2>
+            </div>
+            <div id="footer-container">
+                <div id="more-info">
+                    <h2>Para mais informações</h2>
+                    <p>
+                        Acompanhe minha carreira pelas minhas redes sociais! <br/>
+                        Adoraria ajudar em projetos, mande uma mesnagem! 😁😎 <br/> <br/>
+                        (19) 99713-2642 <br/>
+                        mateusmessias.upnet@gmail.com
+                    </p>
+                </div>
+                <div id="social-medias">
+                    <ul>
+                        <li><a href="https://www.instagram.com/mateuzz_055/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/mateus.messiasdasilva.5/friends/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://github.com/MessiaaMateus"><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/mateus-messias-06715b264/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div id="your-opnion">
+                    <form action="#">
+                        <div id="opnion">
+                            <h2>O que você achou?</h2>
+                        </div>
+                        <textarea 
+                        name="comentário" 
+                        id="comment"
+                        placeholder="Deixe aqui seu comentário sobre o que você achou do site!"
+                        ></textarea>
+                        <input type="submit" />
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
